@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Is My Website</title>
 
-    <style>
+    <style> body{
+        margin: 0;
+    }
 .half-width{
 
 width: 40%;
@@ -18,8 +20,22 @@ padding-left: 2%;
     
     width: 60%;
 
-}
+}.top-banner{background-image: url(images/top-banner.png);
 
+background-repeat: no-repeat;}
+section{height: 500px;
+padding-bottom: 50px;}
+.link-button{
+    border: plum;
+    border-radius: 5px;
+    padding: 7px 20px;
+    text-decoration:none;
+    background-color: rgba(220, 20, 60, 0.712);
+    color: silver;
+    font-weight: 800;
+    background-image: linear-gradient(45deg,salmon, tomato);
+
+}
 
 
 
@@ -29,16 +45,28 @@ padding-left: 2%;
 </head>
 <body>
    
-<section>
+<section class="top-banner" >
 <div class="half-width">
     <h1>Welcome To</h1>
     <h1><span style="color: rgba(220, 20, 60, 0.712);">Tanvir's</span> Website</h1>
     <h3>World Class Web developer</h3>
     <p>I am a Full Stack Web Developer.But Anyone can not pay somethimg for My Job.This is ery Disapointed for me.BUT i don'n care about it.i wiil do my work smoothly as Well as.</p>
+    <a class="link-button" target="_blank" href="https://www.linkedin.com/in/md-tanvir-ahmed-ba6951174/">HIRE ME</a>
 </div>
 
  <div class="half-width">   <img src="images/jhankar.png" alt="">
 </div>
+</section>
+<section class="Dream Area">
+<div class="half-width">
+<img src="images/jhankar2.png" alt=""></div>
+<div class="half-width">
+
+
+</div>
+
+
+
 </section>
 
 </body>
